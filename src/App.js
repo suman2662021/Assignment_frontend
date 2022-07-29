@@ -7,7 +7,7 @@ import Edit from './pages/Edit.jsx';
 import Add from './pages/Add.jsx';
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000/api/v1";
+axios.defaults.baseURL = "https://assignmentbackend99.herokuapp.com/api/v1";
 
 const App = () => {
   return (
